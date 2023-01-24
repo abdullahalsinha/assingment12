@@ -1,0 +1,48 @@
+@font-face {
+    font-family:Sofia Pro ;
+    src: url(font/sofiapro-light.otf);
+}
+
+*{
+    margin: 0 auto;
+}
+.upper .container{
+    background-color: #fff;
+}
+.upper .lg-side img{
+
+}
+
+.upper .etc li{
+    list-style: none;
+}
+.upper .etc ul{
+    display: flex;
+}
+.upper .etc a{
+    margin-left: 300px;
+}
+.upper .etc  a{
+    margin-top: -80px;
+    width: 25%;
+    text-decoration: none; 
+    display: flex;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 3px 4px;
+    color: #000000;
+}
+.upper .etc .fc a{
+    border: 1px solid black;
+    width: 18%;
+    padding: 2px 9px;
+}
+
+.upper .etc  li:last-child {
+    background-color: #F0D108;
+    box-sizing: border-box;
+    width: 100%;
+}
