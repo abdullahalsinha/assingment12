@@ -7,6 +7,7 @@
     margin: 0 auto;
 }
 .upper .container{
+    width: 100%;
     background-color: #fff;
 }
 .upper .lg-side img{
@@ -45,4 +46,42 @@
     background-color: #F0D108;
     box-sizing: border-box;
     width: 100%;
+}
+
+    /* end of upper  */
+
+
+.voor-de{
+    width: 100%;
+    background-image: url(bgc.png);
+}
+.v-text h1{
+    width: 764px;
+    font-family: Sofia Pro;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(26, 23, 23);
+}
+
+.v-text p{
+    width: 805px;
+}
+
+.v-text a{
+    position: absolute;
+    text-decoration: none;
+    padding: 17px 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-left: 90px;
+}
+.v-text a:first-child{
+    position: relative;
+    left: 600px;
+}
+.v-text a:last-child{
+    border: 1px solid #F0D108;
+    background-color: #F0D108;
+    padding: 17px 30px;
+    margin-left: 886px;
 }
