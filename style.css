@@ -60,28 +60,48 @@
     font-family: Sofia Pro;
     font-weight: 700;
     font-size: 48px;
+    margin-top: 90px;
     color: rgb(26, 23, 23);
 }
 
 .v-text p{
-    width: 805px;
+    width: 584px;
+    margin-top: 40px;
+    margin-left: 676px;
+    font-family:Sofia Pro;
+    font-weight: 400px;
+    font-size: 18px;
+
 }
 
 .v-text a{
+    margin-top: 40px;
     position: absolute;
     text-decoration: none;
     padding: 17px 30px;
     border: 1px solid #000000;
     color: #000000;
-    margin-left: 90px;
-}
+    margin-left: 700px;
+ }
 .v-text a:first-child{
     position: relative;
-    left: 600px;
-}
+    
+ } 
 .v-text a:last-child{
     border: 1px solid #F0D108;
     background-color: #F0D108;
     padding: 17px 30px;
-    margin-left: 886px;
+    margin-left: 900px;
+} 
+
+    /* end of .voor-de */
+
+    /* start of nav */
+
+.navigation .container{
+    margin: 0 auto;
+}
+
+.navigation .waar-text h2{
+    padding: 10px;
 }
