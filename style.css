@@ -46,6 +46,7 @@
     background-color: #F0D108;
     box-sizing: border-box;
     width: 100%;
+    margin-left: 50px;
 }
 
     /* end of upper  */
@@ -55,25 +56,29 @@
     width: 100%;
     
 }
-.voor-de .container{
-    background-image: url(lg6.png);
-    opacity: 0.8;
+.voor-de{
+    background-image: url(image/lg6.png);
+    width: 100%;
+    max-width: 1512px;
+    height: 527px;
+    
 }
 .v-text h1{
     width: 764px;
     font-family: Sofia Pro;
     font-weight: 700;
     font-size: 48px;
-    margin-top: 90px;
-    color: rgb(26, 23, 23);
+    margin-top: 0px;
+    color: rgb(250, 247, 247);
 }
 
 .v-text p{
     width: 745px;
-    margin-top: 40px;
-    margin-left: 730px;
+    margin-top: 140px;
+    margin-left: 383px;
     font-family:Sofia Pro;
     font-weight: 400px;
+    color: #fff;
     font-size: 18px;
 
 }
@@ -83,9 +88,9 @@
     position: absolute;
     text-decoration: none;
     padding: 17px 30px;
-    border: 1px solid #000000;
-    color: #000000;
-    margin-left: 773px;
+    border: 1px solid #e4e0e0;
+    color: #fcfcfc;
+    margin-left: 435px;
  }
 .v-text a:first-child{
     position: relative;
@@ -95,7 +100,7 @@
     border: 1px solid #F0D108;
     background-color: #F0D108;
     padding: 17px 30px;
-    margin-left: 968px;
+    margin-left: 620px;
 } 
 
     /* end of .voor-de */
@@ -108,8 +113,8 @@
 
 .navigation .waar-text h2{
     padding: 10px;
-    margin-left: 819px;
-    margin-top: 250px;
+    margin-left: 692px;
+    margin-top: 138px;
     font-family: 'Sofia Pro';
     font-weight: 700;
     font-size: 40px;
@@ -117,10 +122,65 @@
 }
 
 .navigation .waar-text p{
-    margin-left: 722px;
+    margin-left: 613px;
     margin-top: 30px;
     font-family: 'Sofia Pro';
     font-weight: 400;
     font-size: 18px;
     color: #8F8F8F;
 }
+
+.waar-img {
+    margin-left: 450px;
+    margin-top: 110px;
+}
+
+.waar-img img{
+    width: 17%;
+    
+    border: 1px solid #E7E7E7;
+    margin-bottom: 10px;
+}
+
+.waar-spn1 span{
+    padding: 10px 20px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border: 1px solid #E7E7E7;
+
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.waar-spn2 span{
+    margin-left: 760px;
+    border: 1px solid #E7E7E7;
+
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.waar-spn3 span{
+    margin-left: 1016px;
+    border: 1px solid #E7E7E7;
+
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.waar-spn4 span{
+    margin-left: 1276px;
+    border: 1px solid #E7E7E7;
+    margin-top: 5px;
+
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}   
