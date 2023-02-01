@@ -5,10 +5,12 @@
 
 *{
     margin: 0 auto;
+    overflow: ;
 }
 .upper .container{
     width: 100%;
     background-color: #fff;
+    
 }
 .upper .lg-side img{
 
@@ -37,16 +39,31 @@
     color: #000000;
 }
 .upper .etc .fc a{
-    border: 1px solid black;
-    width: 18%;
-    padding: 2px 9px;
+    border: 1px solid #E7E7E7;
+    width: 14%;
+    padding: 14px 19px;
+    
 }
 
-.upper .etc  li:last-child {
-    background-color: #F0D108;
-    box-sizing: border-box;
+.etc .fc2 {
+   
+}
+
+.etc .fc2 {
+   
+    left: 40px;
+}
+
+.etc .lc{
+    position: relative;
+}
+
+.etc .lc a{
     width: 100%;
-    margin-left: 50px;
+    position: relative;
+    /* background-color: #F0D108; */
+    padding: 17px 30px;
+    left: -40px;
 }
 
     /* end of upper  */
@@ -113,7 +130,8 @@
 
 .navigation .waar-text h2{
     padding: 10px;
-    margin-left: 692px;
+     margin-left: 861px;
+     /* 692px */
     margin-top: 138px;
     font-family: 'Sofia Pro';
     font-weight: 700;
@@ -122,7 +140,8 @@
 }
 
 .navigation .waar-text p{
-    margin-left: 613px;
+    margin-left: 768px;
+    /* 613px */
     margin-top: 30px;
     font-family: 'Sofia Pro';
     font-weight: 400;
@@ -155,9 +174,10 @@
 }
 
 .waar-spn2 span{
-    margin-left: 760px;
+    margin-left: 832px ;
+    /* 760px */
     border: 1px solid #E7E7E7;
-
+    margin-top: -7px;
     font-family: 'Sofia Pro';
     font-weight: 700;
     font-size: 20px;
@@ -183,4 +203,15 @@
     font-weight: 700;
     font-size: 20px;
     color: #000000;
-}   
+}  
+.navigation a{
+    text-decoration: none;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 977px;
+    border:1px solid #E7E7E7;
+    padding: 10px 30px;
+    margin-top: -50px;
+}
