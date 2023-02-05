@@ -5,7 +5,7 @@
 
 *{
     margin: 0 auto;
-    overflow: ;
+   
 }
 .upper .container{
     width: 100%;
@@ -59,7 +59,7 @@
 }
 
 .etc .lc a{
-    width: 100%;
+    width: 26%;
     position: relative;
     /* background-color: #F0D108; */
     padding: 17px 30px;
@@ -204,7 +204,7 @@
     font-size: 20px;
     color: #000000;
 }  
-.navigation a{
+.anchor a{
     text-decoration: none;
     font-family: 'Sofia Pro';
     font-weight: 700;
@@ -214,4 +214,86 @@
     border:1px solid #E7E7E7;
     padding: 10px 30px;
     margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.diensten .container{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.diensten .die-text h2{
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-left: 1002px;
+    margin-top: 129px;
+}
+
+.diensten .die-text p{
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-left: 891px;
+    margin-top: 20px;
+}
+
+.diensten .box-left .container{
+    padding: 20px 0px;
+}
+
+/* .box-left  i{
+    width: 25%;
+    background-color: #F0D108;
+    border-radius: 50%;
+} */
+.box-left .container{
+    margin-top: 100px;
+    background-color: #fff;
+}
+.box-left .lg-t h3{
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    margin-left: 606px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.box-left .lg-t p{
+    width: 446px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8F8F8F;
+    margin-left: 606px;
+    margin-top: 25px;
+}
+
+.box-right .container{
+
+}
+
+.box-right .lg2  {
+
+}
+
+.box-right .lg-t2 h3{
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 1111px;
+    margin-top: -160px;
+}
+
+.box-right .lg-t2 p{
+    width: 446px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8F8F8F;
+    margin-left: 1111px;
+    margin-top: 25px;
 }
