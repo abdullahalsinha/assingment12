@@ -251,11 +251,17 @@
 } */
 .box-left .container{
     margin-top: 100px;
-    background-color: #fff;
+    /* background-color: #fff; */
+}
+
+.box-left .lg .lg-t h3 , p{
+    border: 1px #E7E7E7 solid ;
+    padding: 20 30px;
 }
 .box-left .lg-t h3{
     font-family: 'Sofia Pro';
     font-weight: 700;
+    margin-top: -40px;
     margin-left: 606px;
     font-size: 24px;
     color: #000000;
@@ -285,7 +291,7 @@
     font-size: 24px;
     color: #000000;
     margin-left: 1111px;
-    margin-top: -160px;
+    margin-top: -168px;
 }
 
 .box-right .lg-t2 p{
