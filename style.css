@@ -235,6 +235,9 @@
     margin-bottom: 100px;
 }
 
+
+/* start of diensten  */
+
 .diensten .container{
     margin: 0 auto;
     width: 100%;
@@ -275,10 +278,10 @@
 .box-left .lg .lg-t{
     box-shadow: #F9F9F9;
 }
-.box-left .lg .lg-t h3 , p{
+/* .box-left .lg .lg-t h3 , p{
     border: 1px #E7E7E7 solid ;
     padding: 20 30px;
-}
+} */
 .box-left .lg-t h3{
     font-family: 'Sofia Pro';
     font-weight: 700;
@@ -332,7 +335,59 @@
 
 .Ervaringen .container {
     background-color: #fff;
+    margin-top: 80px;
+    border: none;
+    position: relative;
 }
 
-.Ervaringen .evr-txt p{
+.Ervaringen .erv-txt h2{
+    position: absolute;
+    left: 845px;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.Ervaringen .erv-txt p{
+    position: absolute;
+    left: 895px;
+    top: 77px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #8F8F8F;
+}
+
+.Ervaringen .erv-box {
+    color: #000000;
+    position: absolute;
+    top: 200px;
+    padding: 20px 30px;
+}
+
+.erv-box .box1 p , .box2 p , .box3 p , .box4 p{
+    display: flex;
+    flex-direction:row;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #525252;  
+    border: 1px solid #E7E7E7;
+    padding: 20px 40px;
+}
+
+.erv-box .box1 a , .box2 a , .box3 a , .box4 a{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
 }
