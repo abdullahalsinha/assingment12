@@ -340,6 +340,12 @@
     position: relative;
 }
 
+.Ervaringen .erv-txt .img1{
+    position: absolute;
+    left: 328px;
+    top: 256px;
+}
+
 .Ervaringen .erv-txt h2{
     position: absolute;
     left: 845px;
@@ -362,16 +368,17 @@
     color: #8F8F8F;
 }
 
+
 .Ervaringen .erv-box {
     color: #000000;
     position: absolute;
-    top: 200px;
+    top: 150px;
     padding: 20px 30px;
 }
-
-.erv-box .box1 p , .box2 p , .box3 p , .box4 p{
+.erv-box .container{
     display: flex;
-    flex-direction:row;
+}
+.erv-box .box1 p , .box2 p , .box3 p , .box4 p{
     font-family: 'Sofia Pro';
     font-weight: 400;
     font-size: 14px;
@@ -383,11 +390,42 @@
 
 .erv-box .box1 a , .box2 a , .box3 a , .box4 a{
     text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
     font-family: 'Sofia Pro';
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
     color: #000000;
+    border: none;
+}
+
+.erv-box .box1{
+    position: absolute;
+    left: 259px;
+    height: 150px;
+    border: 1px solid #E7E7E7;
+    width: 264px;
+}
+
+.erv-box .box2 {
+    position: absolute;
+    left: 572px;
+    border: 1px solid #E7E7E7;
+    width: 264px;
+}
+.erv-box .box2 .img2{
+    
+}
+
+.erv-box .box3 {
+    position: absolute;
+    left: 885px ;
+    border: 1px solid #E7E7E7;
+    width: 264px;
+}
+
+.erv-box .box4 {
+    position: absolute;
+    left: 1196px;
+    border: 1px solid #E7E7E7;
+    width: 264px;
 }
