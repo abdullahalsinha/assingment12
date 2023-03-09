@@ -412,8 +412,10 @@
     border: 1px solid #E7E7E7;
     width: 264px;
 }
-.erv-box .box2 .img2{
-    
+.erv-box .img2{
+    position: absolute;
+    width: 264px;
+    position: absolute;
 }
 
 .erv-box .box3 {
