@@ -379,6 +379,8 @@
     display: flex;
 }
 .erv-box .box1 p , .box2 p , .box3 p , .box4 p{
+    position: absolute;
+    top: 15px;
     font-family: 'Sofia Pro';
     font-weight: 400;
     font-size: 14px;
@@ -386,9 +388,13 @@
     color: #525252;  
     border: 1px solid #E7E7E7;
     padding: 20px 40px;
+    height: 130px;
 }
 
 .erv-box .box1 a , .box2 a , .box3 a , .box4 a{
+    position: absolute;
+    left: 68px;
+    top: 145px;
     text-decoration: none;
     font-family: 'Sofia Pro';
     font-weight: 700;
@@ -412,10 +418,18 @@
     border: 1px solid #E7E7E7;
     width: 264px;
 }
-.erv-box .img2{
+
+.erv-box .box2 .img3{
+    position: absolute;
+    left: 350px;
+    display: flex;
+}
+.erv-box .box1 .img2{
     position: absolute;
     width: 264px;
-    position: absolute;
+    left: 348px;
+    padding: 5px ;
+    box-sizing: border-box;
 }
 
 .erv-box .box3 {
@@ -425,9 +439,38 @@
     width: 264px;
 }
 
+.erv-box .box3 .img4{
+    display: flex;
+    position: absolute;
+    left: 350px;
+}
+
 .erv-box .box4 {
     position: absolute;
     left: 1196px;
     border: 1px solid #E7E7E7;
     width: 264px;
+}
+
+/* end of Ervaringen */
+
+/* start of over erik */
+
+.over-erik .container{
+    background-color: #F9F9F9;
+}
+
+.over-erik .left{
+    position: absolute;
+    bottom: -1800px;
+    left: 50px;
+    background-color: #F9F9F9;
+}
+
+.over-erik .right h2{
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: green
 }
