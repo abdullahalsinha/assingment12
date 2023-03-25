@@ -457,7 +457,10 @@
 /* start of over erik */
 
 .over-erik .container{
-    background-color: #F9F9F9;
+    /* bgc problem */
+    position: absolute;
+    left: 240px;
+    bottom: -19px;
 }
 
 .over-erik .left{
@@ -468,9 +471,151 @@
 }
 
 .over-erik .right h2{
+    position: absolute;
+    bottom: -1491px;
+    left: 717px;
+    width: 529px;
+    height: 40px;
     font-family: 'Sofia Pro';
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    color: green
+    color: #000000;
 }
+
+.over-erik .right p{
+    position: absolute;
+    bottom: -1697px;
+    left: 719px;
+    width: 464px;
+    height: 156px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8F8F8F;
+}
+
+/* end of over erik  */
+
+/* start of contact */
+
+.conatct-formula .container{
+    position: relative;
+    bottom: -1104px;
+    left: 289px;
+    
+}
+
+.conatct-formula .left-sd h2{
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.conatct-formula .left-sd p{
+    width: 446px;
+    position: absolute;
+    left: 22px;
+    bottom: -119px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8F8F8F;
+}
+
+.conatct-formula .left-sd h3{
+    width: 211px;
+    position: absolute;
+    left: 20px;
+    bottom: -219px;
+    height: 24px;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.conatct-formula .left-sd i{
+    position: absolute;
+    bottom: -277px;
+    left: 20px;
+    background-color: #f8d90d;
+    border-radius: 66%;
+    padding: 10px 13px;
+}
+
+.conatct-formula .left-sd h4{
+    position: absolute;
+    bottom: -269px;
+    left: 75px;
+}
+
+.conatct-formula .left-sd .call i{
+    position: absolute;
+    bottom: -334px;
+    left: 20px;    
+}
+
+.conatct-formula .left-sd .call h4{
+    position: absolute;
+    bottom: -326px;
+}
+
+.conatct-formula .left-sd .location i{
+    position: absolute;
+    bottom: -391px;
+    left: 20px;    
+}
+
+.conatct-formula .left-sd .location h4{
+    position: absolute;
+    bottom: -382px ;
+}
+
+.conatct-formula .form-box{
+    position: absolute;
+    left: 1020px;
+    bottom: -2276px;
+    background-color: #E7E7E7;
+}
+
+.conatct-formula .form-box h3{
+    width: 198px;
+    height: 24px;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.conatct-formula  .form-box input{
+    position: relative;
+    bottom: -50px;
+    box-sizing: border-box;
+    width: 449px ;
+    height: 56px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 3px;
+    padding: 20px 30px;
+    height: 87px;
+}
+
+.conatct-formula  .form-box a{
+    position: absolute;
+    bottom: -140px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #DCBF06;
+    padding: 15px 30px;
+}
+
