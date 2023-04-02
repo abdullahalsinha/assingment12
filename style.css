@@ -465,14 +465,14 @@
 
 .over-erik .left{
     position: absolute;
-    bottom: -1800px;
+    bottom: -1850px;
     left: 50px;
     background-color: #F9F9F9;
 }
 
 .over-erik .right h2{
     position: absolute;
-    bottom: -1491px;
+    bottom: -1541px;
     left: 717px;
     width: 529px;
     height: 40px;
@@ -485,7 +485,7 @@
 
 .over-erik .right p{
     position: absolute;
-    bottom: -1697px;
+    bottom: -1767px;
     left: 719px;
     width: 464px;
     height: 156px;
@@ -619,3 +619,50 @@
     padding: 15px 30px;
 }
 
+        /* end of contact formula  */
+
+        /* start of footer  */
+
+footer .container{
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:#F9F9F9 ;
+    position: relative;
+    bottom: -1605px;
+}   
+
+footer .cn-left img{
+    position: relative;
+    left: 300px;
+    bottom: -27px;
+
+}
+footer .cn-left p{
+    width: 418px;
+    height: 78px;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #030303;
+    position: relative;
+    left: -415px;
+    bottom: -63px;
+}
+
+footer .con-right  a{
+    position: relative;
+    left: 900px;
+    bottom: 90px;
+}
+
+footer .con-right .links ul{
+    
+}
+
+@media screen and (max-width:414px) {
+    .upper .lg-side img{
+        position: absolute;
+        
+    }
+}
